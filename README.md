@@ -13,14 +13,23 @@
 04-utilitarios: Ferramentas pequenas: timer e teclado numérico
 
 📈 O que estou praticando
+
 Variáveis, tipos de dados e conversões
+
 Entrada e saída de dados (input e print)
+
 Operadores matemáticos e fórmulas
+
 Estruturas condicionais (if, elif, else)
+
 Laços de repetição (for, while)
+
 Funções
+
 Manipulação e indexação de strings
+
 Listas e organização de código
+
 
 👤 Autor
 
