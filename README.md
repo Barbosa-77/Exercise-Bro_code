@@ -3,9 +3,13 @@
 # O objetivo deste repositório é registrar minha evolução, do básico até programas completos.
 
 📚 Conteúdo
+
 01-basico: Entrada de dados, conversões de unidades e indexação de strings
+
 02-calculos: Fórmulas matemáticas, áreas, médias, juros compostos e conversão de moeda
+
 03-programas: Programas completos: calculadora, carrinho de compras e quiz
+
 04-utilitarios: Ferramentas pequenas: timer e teclado numérico
 
 📈 O que estou praticando
