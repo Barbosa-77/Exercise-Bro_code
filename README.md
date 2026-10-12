@@ -1,4 +1,4 @@
-# Exercícios práticos feitos durante meus estudos de Python, seguindo o curso "Python in 12 Hours" do Bro Code e atividades da faculdade (Análise e Desenvolvimento de Sistemas).
+# Exercícios práticos feitos durante meus estudos de Python, seguindo o curso "Python Full Course" do Bro Code e atividades da faculdade (Análise e Desenvolvimento de Sistemas).
 
 # O objetivo deste repositório é registrar minha evolução, do básico até programas completos.
 

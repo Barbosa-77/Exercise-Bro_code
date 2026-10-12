@@ -22,7 +22,7 @@ for pergunta in perguntas:
     for alternativa in alternativas[numero_ques]:
         print(alternativa)
 
-    resposta = input("\nDigite (A, B, C, D): ").upper()
+    resposta = input("\nDigite (A, B, C, D): ").strip().upper()
     resp_usuario.append(resposta)
 
     if resposta == resp_correta[numero_ques]:
