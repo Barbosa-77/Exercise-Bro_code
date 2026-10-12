@@ -27,18 +27,11 @@ while funcionando:
             elif escolha_usuario == "papel" and escolha_maquina == "pedra":
                 print("Voce venceu!!")
                 pontuacao_usario += 1
-                #Possibilidade maquina
             elif escolha_usuario == escolha_maquina:
                 print("Empate!!")
-            elif escolha_maquina == "tesoura" and escolha_usuario == "papel":
+            else:
                 print("A maquina venceu!!")
-                pontuacao_maquina += 1
-            elif escolha_maquina == "pedra" and escolha_usuario == "tesoura":
-                print("A maquina venceu!!")
-                pontuacao_maquina += 1
-            elif escolha_maquina == "papel" and escolha_usuario == "pedra":
-                print("A maquina venceu!!")
-                pontuacao_maquina += 1    
+                pontuacao_maquina += 1   
         else:
             print("Opcao invalida. Tente novamente\n")
 
