@@ -17,41 +17,58 @@ def showbal():
 
 def deposit(dep):
     global balance
-    balance = balance + dep
+    dep = float(input("How much to deposit:\n"))
+
+    if dep < 0:
+        print("Invalid amount")
+    else:
+        balance = balance + dep
 
 def withdraw(wit):
     global balance
-    balance = balance - wit
+    wit = float(input("How much to take:\n"))
+
+    if wit>balance:
+        print("Invalid amount")
+    else:
+        balance = balance - wit
 # ===============Functions===================
 
-
+# ===============Main code===================
+dep = 0
+wit = 0
 balance = 2600.00
-
-while True:
-    menu()
-    chose = int(input("Choose a number: (0 to quit)\n"))
-    if chose > 3 or chose < 0:
-        print("Invalid")
-        continue
-    else:
-        match chose:
-            case 1:
-                dep = float(input("How much to deposit:\n"))
-                deposit(dep)
-                showbal()
-            case 2:
-                wit = float(input("How much to take:\n"))
-                withdraw(wit)
-                showbal()
-            case 3:
-                showbal()
-            case 0:
-                break
-        time.sleep(1)    
-        again = input("Another transition?(Y/N)\n")
-        if again.upper() == "Y":
-            time.sleep(1)
-            continue   
+def main():
+    while True:
+        menu()
+        chose = int(input("Choose a number: (0 to quit)\n"))
+        if chose > 3 or chose < 0:
+            print("Invalid")
+            continue
         else:
-            break  
-         
+            match chose:
+                case 1:
+                    deposit(dep)
+                    showbal()
+                case 2:
+                    withdraw(wit)
+                    showbal()
+                case 3:
+                    showbal()
+                case 0:
+                    break
+            time.sleep(1)    
+            again = input("Another transition?(Y/N)\n")
+            if again.upper() == "Y":
+                time.sleep(1)
+                continue   
+            else:
+                break  
+# ===============Main code===================
+
+
+
+
+#if __name__ == __main__:
+   #main()
+main()
